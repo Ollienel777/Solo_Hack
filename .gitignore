@@ -1,0 +1,38 @@
+# Loop scratch memory: one run only, truncated at the end of each run
+.claude/ideation-log.md
+.claude/build-log.md
+.claude/settings.local.json
+.claude/worktrees/
+
+# Ideation output, the decision, pre-start drafts and rehearsal captures stay
+# local: this repository is public, and committing them early publishes the idea.
+# The build loop's spec PR adds DECISION.md deliberately (git add -f) once
+# hacking has started. Git overwrites an ignored file on the next pull.
+hackathon/ideation/
+hackathon/DECISION.md
+hackathon/draft/
+hackathon/rehearsals/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Build output and tooling caches
+node_modules/
+.next/
+out/
+dist/
+build/
+# `build/` above matches at any depth; the build loop's brief must stay tracked
+!docs/build/
+coverage/
+playwright-report/
+test-results/
+.turbo/
+.vercel/
+__pycache__/
+.venv/
+*.pyc
+.DS_Store
+Thumbs.db
