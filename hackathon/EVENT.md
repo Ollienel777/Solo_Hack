@@ -7,51 +7,79 @@ timezone, for example `America/Toronto`.
 
 ## Basics
 
-- name: TODO
-- url: TODO
-- hacking starts: TODO
-- feature freeze: TODO
-- submission deadline: TODO
+- name: Hack the North 2026 (University of Waterloo)
+- url: https://hackthenorth2026.devpost.com/
+- hacking starts: 2026-09-19 00:00 America/Toronto
+- feature freeze: default
+- submission deadline: 2026-09-20 08:00 America/Toronto
 - submit window: 1h
-- team: solo
+- team: duo (2 people)
 
-<!-- Time format: 2026-10-03 18:00 America/Toronto
+<!-- 32 hours of hacking. Sponsor prizes must be selected on Devpost before
+     2026-09-19 14:00 America/Toronto, which is its own deadline and falls
+     14 hours after the start.
      feature freeze: `default` means the deadline minus 20% of the hacking
      window, and at least 3h before the deadline. -->
 
 ## Judging
 
-- criteria: TODO
-- judges: TODO
-
-<!-- criteria: paste the published criteria and their weights.
-     judges: names and backgrounds if the event lists them, otherwise `none`. -->
+- criteria: originality, user experience, technical complexity, and WOW factor.
+  Weights are not published; treat the four as equal, with WOW factor the
+  tie-breaker, since the judging pitch must be a **live demo, not a slide deck
+  or a product pitch**.
+- judges: Tom Alterman (GoodLeap, Director of Product); Advait Maybhate (Warp,
+  Software Engineer); Nabil Fahel (Communitech, VP); Jen Dewalt (Tokay.io,
+  Co-founder and CPO); Mike Kirkup (Elderella, Co-founder); Albert Chen (Two
+  Small Fish Ventures, Partner); Alroy Almeida (BDC Capital, Pre-Seed/Seed
+  Investor). Partial list, from the Devpost PDF.
 
 ## Tracks and prizes
 
-- TODO
-
-<!-- One line per track or prize. Full descriptions go in hackathon/tracks/. -->
+- Main award: **Hack the North 2026 Finalists**, 12 winners, no ranking within
+  them. Originality, clever technical work, creative experiences.
+- About 30 sponsor prizes. The full list, with each one's requirements and
+  judging criteria, is in `hackathon/tracks/prizes.md`.
+- Several are worth stacking with a main-award project: OpenAI (API + Codex),
+  Rox (Best AI Agent, $10K), Elastic, Cloudflare, Zip, Federato, RBC, Shopify,
+  Warp, Sentry, Backboard, Browserbase, GPTZero, Baseten, Tether, Solana, Linq,
+  Huawei (two challenges), and the MLH prizes (Gemini, ElevenLabs, MongoDB,
+  Snowflake, Tiger Data, Vultr, GoDaddy).
+- Hardware or venue-bound: Bracket Bot, LeLamp, QNX, Dominion Dynamics
+  WHITEOUT, Dryft (H100 benchmark), CSE (dataset in Discord), Aramco (beginner
+  teams only).
 
 ## Rules that constrain ideas
 
-- TODO
-
-<!-- e.g. required technologies, licence, no code before the start, AI-use
-     disclosure, video length limit. -->
+- The project must be built during the hackathon, and be substantially the
+  team's own work.
+- Submit a link to the source code, including all design assets created at the
+  event.
+- Every team member's badge ID goes in the submission, exactly as shown under
+  the QR code on the badge.
+- **Sponsor prizes must be selected before 2:00 PM EDT on Saturday.**
+- Some prizes carry hard requirements (QNX OS, Cloudflare Workers as the
+  runtime, Tether's `hello-pear-qvac-tui` repo as a core part, Huawei OMNI's
+  three modalities). Those are in `tracks/prizes.md`.
 
 ## Submission requirements
 
-- TODO
-
-<!-- e.g. Devpost page, public repo, live demo URL, demo video of 3 minutes
-     or less, slides. -->
+- A project built during the hackathon.
+- A source-code link, including design assets.
+- Badge IDs for every team member.
+- Sponsor prize selections, before the Saturday 2:00 PM EDT cutoff.
+- A demo video: optional but recommended.
+- The judging pitch itself is a live demo.
 
 ## The builder
 
 - skills and interests: TODO
-- hard constraints: TODO
-- accounts and keys already held: TODO
+- hard constraints: **no hardware.** Rules out the tracks needing physical
+  devices or venue kit: Bracket Bot, LeLamp, QNX, Dominion Dynamics WHITEOUT.
+  A duo is also ineligible for Aramco's beginner prize unless both members
+  have attended one or fewer hackathons.
+- accounts and keys already held: none yet. Every sponsor API needs a sign-up
+  at or before the event, so ideas are planned against fixture-backed fakes and
+  the sign-ups are listed as human actions.
 
 <!-- hard constraints: things the idea must respect, such as no hardware or no
      paid APIs, or `none`.
