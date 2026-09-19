@@ -34,6 +34,20 @@ constraint.
 
 ## Research
 
+**Dispatch `event` and `saturation` first, in a group of their own**, before
+any sponsor researcher. A web-search budget is usually **session-wide, not per
+subagent**, so within one group the dispatch order is a priority order: a run
+that sent eighteen researchers at once spent the whole budget on sponsors and
+left these two with nothing. They are the two files every later round depends
+on most, since they decide novelty and judging fit.
+
+**When a page cannot be fetched, try the vendor's documentation repository on
+GitHub.** Most vendor docs sites are built from an open-source repo
+(`cloudflare/cloudflare-docs`, Elastic's `docs-content`), which serves the same
+primary content through a different host. That is a second route to the source,
+not a way around a policy denial: **a refusal is reported, never worked
+around**.
+
 Plan the `research` group in `research/plan.md`, then dispatch it
 ([dispatching](RULES.md#dispatching)). Scale the split to the event. A typical
 split:
