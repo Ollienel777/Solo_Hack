@@ -15,7 +15,10 @@ timezone, for example `America/Toronto`.
 - submit window: 1h
 - team: duo (2 people)
 
-<!-- 32 hours of hacking. Sponsor prizes must be selected on Devpost before
+<!-- 32 hours of hacking. The builder confirmed the midnight start on
+     2026-09-19, so the Devpost page's "36 hours" is the generic figure and
+     these times win.
+     Sponsor prizes must be selected on Devpost before
      2026-09-19 14:00 America/Toronto, which is its own deadline and falls
      14 hours after the start.
      feature freeze: `default` means the deadline minus 20% of the hacking
@@ -72,9 +75,33 @@ timezone, for example `America/Toronto`.
 
 ## The builder
 
-- skills and interests: TODO
-- hard constraints: **no hardware.** Rules out the tracks needing physical
-  devices or venue kit: Bracket Bot, LeLamp, QNX, Dominion Dynamics WHITEOUT.
+- skills and interests: "Anything is fine, experienced in all fields." Both
+  members are senior generalists, with no preferred stack and no domain they
+  need to avoid: web and mobile frontends, backend and infra, data and ML,
+  graphics, audio, and systems work are all in reach. Treat this as **no
+  skill-based narrowing** — do not rule an idea out, or favour one, on the
+  grounds of the language, framework or domain it needs. Judge feasibility only
+  on what the event itself constrains: the 32-hour window, two people, the
+  hard constraints below, and how reliably the thing can be demoed live.
+  Taste still applies: pick the stack that gets a polished, working demo
+  fastest, not the one that shows range.
+- hard constraints: **none on hardware. Every track is in scope**, including
+  **Bracket Bot** and **LeLamp**, whose robots are lent at the venue rather
+  than owned. The builder reopened this after research found that a third to
+  half of past finalists are embodied demos and that the finalist culture
+  favours physical, playful, in-room work. Borrowed venue hardware carries
+  real access and reliability risk — a shared robot, a queue, a demo that can
+  fail on the floor — and that is for the red team to weigh per idea, not a
+  reason to exclude the whole class up front.
+  **Also in scope, despite an earlier reading of this line:**
+  - **Dominion Dynamics WHITEOUT** — runs on ArduPilot SITL, no hardware. Note
+    that it is scored live in their simulation rather than demoed like a normal
+    project, so an idea built on it wins that track on its own terms and does
+    little for the main award. It suits a second, parallel entry better than
+    the main project.
+  - **Dryft** — supplies the H100s.
+  - **QNX** — only if its free laptop VM path is real. `qnx.com` was blocked
+    during research, so **verify that before any idea depends on it**.
   A duo is also ineligible for Aramco's beginner prize unless both members
   have attended one or fewer hackathons.
 - accounts and keys already held: none yet. Every sponsor API needs a sign-up
